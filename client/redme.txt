@@ -1,0 +1,90 @@
+user数据添加格式
+{
+    "id": user.openid
+    "userName": userName
+    "userImage": userImage
+    "todos":[
+        {
+            id： nanoid
+            //完成日期
+            "due" : new date()
+            // 任务列表
+            "list":[
+                {
+                    id
+                    //任务描述
+                    "description": "吃饭"
+                    //任务是否完成（默认值false）
+                    "done": true
+                },
+                {
+                    id
+                    "description": "睡觉"
+                    "done": true（默认值false）
+                },
+                {
+                    id
+                    "description": "学习"
+                    "done": true（默认值false）
+                },
+            ]
+        },
+    ]
+    
+    // 粉丝
+    "fans":[
+        id1,id2,id3
+    ]
+    // 关注
+    "follows":[
+        id1,id2,id3
+    ]
+    
+}
+
+post数据库
+//发布的动态
+{
+    userid: userid
+    "userName": userName
+    "userImage": userImage
+    post:[
+        {
+            postid: nanoid
+            due: new date()
+            //todoId
+            todoId: todo的nanoid
+            // 是否展示 我的todo
+            //showTodo: true
+            //标题
+            title:
+            //内容
+            context：
+            //图片，最多4张
+            images:[
+
+            ]
+            //点赞用户id
+            likes: [
+                id1,
+                id2
+            ]
+        }
+    ]
+}
+
+//首页广场数据库square
+{
+    // 帖子
+    tiezi:[
+        {
+            userid: userid
+            postid：nanoid
+            due: new date()
+            likes: [
+                id1,
+                id2
+            ]
+        },
+    ]
+}

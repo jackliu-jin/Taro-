@@ -1,0 +1,30 @@
+.content {
+    background-color: #6190e89c;
+    border-radius: 20rpx;
+    box-shadow: 0rpx 10rpx 20rpx 0rpx rgba(0, 0, 0, 0.1);
+
+    .at-accordion {
+
+        box-sizing: border-box;
+        width: 100%;
+        padding: 20rpx;
+
+        .at-accordion__header {
+            padding: 0 0 10rpx 0;
+            color: #ffff;
+        }
+
+        .taskdone {
+            background-color: #7ff587a8;
+        }
+
+        .tasknot {
+            background-color: #e4e2858e;
+        }
+
+        .at-icon {
+            color: #ffff;
+        }
+    }
+
+}

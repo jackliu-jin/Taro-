@@ -1,0 +1,97 @@
+page {
+    background-color: #ffff;
+
+    .index {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 20rpx;
+        margin-bottom: 500rpx;
+
+        .inputArea {
+            margin-bottom: 20rpx;
+
+            .at-input {
+                .at-input__title {
+                    width: 72rpx;
+                }
+            }
+
+            .at-textarea {
+                border: 0;
+                padding: 0 40rpx;
+                margin-top: 20rpx;
+
+                .at-textarea__textarea {
+                    height: 300rpx;
+                }
+            }
+        }
+
+        .showTodo {
+            margin-bottom: 20rpx;
+            padding: 40rpx;
+
+            .showTodo-title {
+                margin-bottom: 20rpx;
+                font-size: 30rpx;
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+
+                .title {
+                    display: inline-block;
+                }
+
+                .at-switch {
+                    margin: 0;
+                    padding: 0;
+                    display: inline-block;
+
+                    .at-switch__title {
+                        display: inline-block;
+                    }
+
+                    .at-switch__container {
+                        margin-left: 20rpx;
+                        display: inline-block;
+
+                    }
+                }
+            }
+
+
+        }
+
+        .imagePicker {
+
+            .uploadImage {
+                margin-left: 40rpx;
+                font-size: 30rpx;
+            }
+
+            .at-image-picker {
+                box-sizing: border-box;
+                padding: 10rpx 20rpx;
+            }
+        }
+
+        .fabPost {
+            position: fixed;
+            display: flex;
+            z-index: 999;
+            bottom: 300rpx;
+            right: 40rpx;
+            flex-direction: column;
+            background-color: #ff8200;
+
+            .text {
+                font-size: 26rpx;
+            }
+        }
+
+        .finishText {
+            margin-bottom: 20rpx;
+            text-align: center;
+        }
+    }
+}

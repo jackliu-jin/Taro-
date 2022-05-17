@@ -1,0 +1,33 @@
+.userPostContent {
+    margin-bottom: 40rpx;
+    padding: 20rpx;
+    background-color: #ffff;
+    border-radius: 20rpx;
+    color: black;
+    box-shadow: 0rpx 10rpx 20rpx 0rpx rgba(0, 0, 0, 0.1);
+    .head {
+        display: flex;
+        height: 100rpx;
+        margin-bottom: 10rpx;
+        .userImage {
+            height: 100%;
+            border-radius: 50%;
+            overflow: hidden;
+            image {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .userName {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 100rpx;
+            margin-left: 20rpx;
+
+            .name {
+                width: 100%;
+            }
+        }
+    }
+}

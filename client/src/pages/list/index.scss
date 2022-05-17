@@ -1,0 +1,96 @@
+.index {
+    box-sizing: border-box;
+    padding: 20rpx;
+
+    .body {
+        box-sizing: border-box;
+        min-height: 400rpx;
+        width: 100%;
+        padding: 20rpx 20rpx 40rpx 20rpx;
+        margin-bottom: 260rpx;
+        border-radius: 20rpx;
+        background-color: #ffff;
+        box-shadow: 0rpx 10rpx 20rpx 0rpx rgba(0, 0, 0, 0.1);
+
+        .time {
+            display: flex;
+            color: #6190E8;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            .day {
+                font-size: 60rpx;
+                font-weight: 600;
+            }
+
+            .date {
+                font-size: 40rpx;
+            }
+        }
+
+        .line {
+            width: 100%;
+            height: 2rpx;
+            margin: 10rpx 0;
+            border-top: rgba(0, 0, 0, 0.3) dashed 4rpx;
+        }
+
+        .done {
+            display: flex;
+            margin-top: 40rpx;
+            padding: 0 10rpx;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            .at-button {
+                margin: 0;
+                font-size: 30rpx;
+                font-weight: 600;
+            }
+
+            .number {
+                font-size: 40rpx;
+                font-weight: 600;
+                color: #ffbb01;
+            }
+
+            .allDoneNumber {
+                font-size: 40rpx;
+                font-weight: 600;
+                color: #48c450;
+            }
+        }
+
+
+    }
+
+    .fabAdd {
+        display: flex;
+        position: fixed;
+        z-index: 999;
+        bottom: 40rpx;
+        right: 40rpx;
+        flex-direction: column;
+        .text {
+            font-size: 26rpx;
+        }
+    }
+
+    .fabClear {
+        display: flex;
+        position: fixed;
+        z-index: 999;
+        bottom: 40rpx;
+        left: 40rpx;
+        background-color: #FF4949;
+        flex-direction: column;
+        .text {
+            font-size: 26rpx;
+        }
+    }
+
+    .finishText{
+        margin-bottom: 20rpx;
+        text-align: center;
+    }
+}

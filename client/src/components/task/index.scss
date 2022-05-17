@@ -1,0 +1,35 @@
+.taskContent {
+    padding: 2rpx 10rpx;
+
+    .task {
+        height: 100%;
+        margin: 10rpx 0;
+        border-radius: 10rpx;
+
+        .taskdone {
+            background-color: #48c450;
+        }
+
+        .tasknot {
+            background-color: #FFC82C;
+        }
+        .option__text{
+            font-size: 30rpx;
+            font-weight: 600;
+        }
+    }
+
+    .input {
+        border: 4rpx solid #dbdbdb;
+
+        .at-input {
+            margin-left: 0;
+            background-color: #e6e6e6;
+            padding: 20rpx 20rpx;
+
+            .placeholder {
+                color: #6190E8;
+            }
+        }
+    }
+}

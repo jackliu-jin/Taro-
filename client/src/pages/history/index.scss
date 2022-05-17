@@ -1,0 +1,13 @@
+page {
+    background-color: #ffff;
+    .index {
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 500rpx;
+        padding: 40rpx;
+
+        .todos {
+            margin-bottom: 20rpx;
+        }
+    }
+}
